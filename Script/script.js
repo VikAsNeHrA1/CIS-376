@@ -2,7 +2,7 @@ $(document).ready(function() {
   const $draggable = $("#draggable");
   const $reset = $("#reset");
   const $target = $("#target");
-  const winSound = new Audio('/win.wav');
+  const winSound = new Audio('Audio/win.wav');
 
 
   $draggable.mousedown(function(event) {
